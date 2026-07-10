@@ -1,0 +1,8 @@
+ultralytics>=8.3.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+psutil>=5.9.0
+
+# Optional: only needed for GPU % readout when using an NVIDIA GPU.
+# If not installed, the code falls back to calling `nvidia-smi` directly.
+pynvml>=11.5.0
